@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>G.O.A.T.</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <a href="https://en.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)">
+        <button id="b1">Link to the Past</button>
+    </a>
+        <button id="b2" onclick="randomGame()">Random Game</button>
+        <script>
+            function randomGame() {
+                var gameUrls= [
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora%27s_Mask',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Minish_Cap',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_Between_Worlds',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening_(2019_video_game)',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tri_Force_Heroes',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons_and_Oracle_of_Ages',
+                'https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Four_Swords_Adventures'
+            ];
+            var randomIndex = Math.floor(Math.random() * gameUrls.length);
+
+            window.location = gameUrls[randomIndex];
+            }
+
+        </script>
+
+    <h1>The Legend of <a href="images/uglierlink.jpg">Link</a></h1>
+    <h2>(the real hero)</h2>
+    <audio controls autoplay loop muted>
+        <source src="audio/OOT_titletheme.mp3.mp3" class="center">
+    </audio>
+    <p id="p1">The Legend of Zelda series is a popular action-adventure video game franchise created by Nintendo.
+         It was first introduced in 1986 and has since become one of the most iconic and influential series in the gaming industry.
+          The protagonist of the series is <a href="images/uglylink.png">Link</a>, a courageous and skilled hero who embarks on a quest to rescue Princess Zelda and thwart the plans of the main antagonist, Ganon.</p>
+    <img src="images/handsomelink.jpg" class="center">
+    <div class="center">
+    <img src="images/Miyamoto.png" id="img1">
+    <div class="box" id="box1">Shigeru Miyamoto, the creator of such beloved series as The Legend of Zelda, Mario, Donkey Kong, and Star Fox</div>
+    <img src="images/Link1.png" id="img2">
+    <div class="box" id="box2"><a href="images/ugliestlink.jpg">Link</a>, the titular hero and an elf of few words. He is known for his iconic green tunic and pointed hat, which have become symbols of the franchise. He is typically equipped with a sword and shield, and throughout the games, he acquires various magical items and tools to aid him on his quest. His adventures often involve solving puzzles, battling enemies, and exploring dungeons to gather powerful artifacts. </div>
+    <img src="images/nintendo.png" id="img3">
+    <p id="p2">Where the magic happens.</p>
+    <!-- <img id="img1" src="images/bg_link.jpg"> -->
+    <h3 class="center"id="g1">Games by release order</h3>
+</div>
+    <table class="center" id="t1">
+        <tr>
+            <th>The Legend of Zelda</th>
+            <th>A Link to the Past</th>
+            <th>Link's Awakening</th>
+            <th>Ocarina of Time</th>
+            <th>Majora's Mask</th>
+            <th>Wind Waker</th>
+            <th>Twilight Princess</th>
+            <th>Skyward Sword</th>
+            <th>Breath of the Wild</th>
+            <th>Tears of the Kingdom</th>
+        </tr>
+        <tr>
+            <td>February 21, 1986</td>
+            <td>November 21, 1991</td>
+            <td>June 6, 1993</td>
+            <td>November 21, 1998</td>
+            <td>April 27, 2000</td>
+            <td>December 13, 2002</td>
+            <td>November 19, 2006</td>
+            <td>November 18, 2011</td>
+            <td>March 3, 2017</td>
+            <td> May 12, 2023</td>
+        </tr>
+    </table>
+    <img src="images/bg_link2.jpg">
+</body>
+</html>
